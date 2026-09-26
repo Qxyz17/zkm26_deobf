@@ -1,0 +1,73 @@
+-- Listing  properties --
+java.specification.version = 25
+sun.cpu.isalist = amd64
+sun.jnu.encoding = GBK
+java.class.path = C:\Users\Administrator\Documents\GitHub\ZKM\ZKM26.jar
+sun.awt.enableExtraMouseButtons = true
+java.vm.vendor = Azul Systems, Inc.
+sun.arch.data.model = 64
+user.variant = 
+java.vendor.url = http://www.azul.com/
+java.vm.specification.version = 25
+os.name = Windows NT (unknown)
+sun.java.launcher = SUN_STANDARD
+user.country = CN
+sun.boot.library.path = C:\Program Files\Zulu\zulu-25\bin
+sun.java.command = C:\Users\Administrator\Documents\GitHub\ZKM\ZKM26.jar
+jdk.debug = release
+sun.cpu.endian = little
+user.home = C:\Users\Administrator
+user.language = zh
+java.specification.vendor = Oracle Corporation
+java.version.date = 2026-04-21
+java.home = C:\Program Files\Zulu\zulu-25
+file.separator = \
+java.vm.compressedOopsMode = 32-bit
+line.separator = 
+
+java.vm.specification.vendor = Oracle Corporation
+java.specification.name = Java Platform API Specification
+user.script = 
+sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+java.runtime.version = 25.0.3+9-LTS
+user.name = Administrator
+stdout.encoding = GBK
+path.separator = ;
+os.version = 6.1
+java.runtime.name = OpenJDK Runtime Environment
+file.encoding = UTF-8
+java.vm.name = OpenJDK 64-Bit Server VM
+java.vendor.version = Zulu25.34+17-CA
+java.vendor.url.bug = http://www.azul.com/support/
+java.io.tmpdir = C:\Users\ADMINI~1\AppData\Local\Temp\
+java.version = 25.0.3
+user.dir = C:\Users\Administrator\Documents\GitHub\ZKM
+os.arch = amd64
+java.vm.specification.name = Java Virtual Machine Specification
+sun.os.patch.level = Service Pack 1
+native.encoding = GBK
+java.library.path = C:\Program Files\Zulu\zulu-25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Zulu\zulu-25\bin\;C:\Program Files\Zulu\zulu-11\bin\;C:\Program Files\Zulu\zulu-8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Python38;C:\Program Files\Python38\Scripts;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python38\;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;.
+java.vm.info = mixed mode, sharing
+stderr.encoding = GBK
+java.vendor = Azul Systems, Inc.
+java.vm.version = 25.0.3+9-LTS
+stdin.encoding = GBK
+sun.io.unicode.encoding = UnicodeLittle
+java.class.version = 69.0
+
+Maximum memory is 2070528K.
+
+Parallel processing active. 4 processors available.
+
+Zelix KlassMaster Unlimited 26.0.3
+                      License No.    None
+                      Credit         by Zelix
+                      Licensee       Cracked By Fxdtn
+                      License Type   Unlimited
+                      Copyright 1997-2026 Zelix Pty Ltd (47 078 740 093)
+                      All rights reserved
+No classes opened. 48321K of memory used. 84798K of memory free.
+ERROR: : Class 'net.minecraft.client.renderer.OpenGlHelper' not found while looking for field 'int field_77476_b' in class 'net.minecraft.client.renderer.OpenGlHelper' which is referenced in class 'C:\Users\Administrator\Downloads\GrimLiquidBounceV1.4.jar!co/uk/hexeption/utils/OutlineUtils.class'. Check the classpath option and reopen classes. (1a)
+CLASSPATH WARNING: : Reference to method 'net.minecraft.launchwrapper.LaunchClassLoader.findClass(java.lang.String)' couldn't be checked because couldn't find 'net.minecraft.launchwrapper.LaunchClassLoader'. Ensure appropriate classpath is set BEFORE classes are loaded. (1)
+FATAL ERROR: : Class 'jdk.internal.org.objectweb.asm.util.Printer' not found. Check the classpath option and reopen classes. (1a)
+7151 classes and 1 module-info.class class opened in 0 seconds. 346649K of memory used. 305638K of memory free.
