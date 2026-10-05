@@ -1,0 +1,40 @@
+public class com.zelix.x44 {
+  private static final java.lang.Object[] a;
+  private static final java.lang.String[] b;
+  private static final long c;
+  private static final java.lang.String[] d;
+  private static final java.lang.String[] e;
+  private static final java.util.Map f;
+  public com.zelix.x44();
+  static {};
+  private static int a(long, long);
+  private static void a(long);
+  private static void b(long);
+  private static void c(long);
+  private static void d(long);
+  private static void e(long);
+  private static void f(long);
+  private static void g(long);
+  private static void h(long);
+  private static void i(long);
+  private static void j(long);
+  private static void k(long);
+  private static java.lang.Class b(long, long);
+  private static java.lang.reflect.Field a(java.lang.Class, java.lang.String, java.lang.Class);
+  private static java.lang.reflect.Field b(java.lang.Class, java.lang.String, java.lang.Class);
+  public static java.lang.reflect.Field c(long, long);
+  private static java.lang.reflect.Method a(java.lang.Class, java.lang.String, java.lang.Class, int, java.lang.Class[]);
+  private static java.lang.reflect.Method b(java.lang.Class, java.lang.String, java.lang.Class, int, java.lang.Class[]);
+  public static java.lang.reflect.Method d(long, long);
+  public static java.lang.invoke.MethodHandle a(java.lang.invoke.MethodHandles$Lookup, java.lang.invoke.MutableCallSite, java.lang.String, java.lang.invoke.MethodType, long, long);
+  public static java.lang.Object a(java.lang.invoke.MethodHandles$Lookup, java.lang.invoke.MutableCallSite, java.lang.String, java.lang.invoke.MethodType, java.lang.Object[]);
+  public static java.lang.invoke.CallSite a(java.lang.invoke.MethodHandles$Lookup, java.lang.String, java.lang.invoke.MethodType);
+  private static java.lang.String a(byte[]);
+  private static java.lang.String a(int, long);
+  private static java.lang.Object a(java.lang.invoke.MethodHandles$Lookup, java.lang.invoke.MutableCallSite, java.lang.String, java.lang.Object[]);
+  private static java.lang.invoke.CallSite b(java.lang.invoke.MethodHandles$Lookup, java.lang.String, java.lang.invoke.MethodType);
+}
+错误: 找不到类: ;
+错误: 找不到类: findstr
+错误: 找不到类: /C:static
+错误: 找不到类: eval25/x44-sig.txt

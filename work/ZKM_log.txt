@@ -1,0 +1,59 @@
+-- Listing  properties --
+java.specification.version = 17
+sun.cpu.isalist = amd64
+sun.jnu.encoding = GBK
+java.class.path = eval25/classes
+sun.awt.enableExtraMouseButtons = true
+java.vm.vendor = Azul Systems, Inc.
+sun.arch.data.model = 64
+user.variant = 
+java.vendor.url = http://www.azul.com/
+java.vm.specification.version = 17
+os.name = Windows 11
+sun.java.launcher = SUN_STANDARD
+user.country = CN
+sun.boot.library.path = C:\Program Files\Zulu\zulu-17\bin
+sun.java.command = com.zelix.ZKM
+jdk.debug = release
+sun.cpu.endian = little
+user.home = C:\Users\18859
+user.language = zh
+java.specification.vendor = Oracle Corporation
+java.version.date = 2026-04-21
+java.home = C:\Program Files\Zulu\zulu-17
+file.separator = \
+java.vm.compressedOopsMode = 32-bit
+line.separator = 
+
+java.vm.specification.vendor = Oracle Corporation
+java.specification.name = Java Platform API Specification
+user.script = 
+sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+java.runtime.version = 17.0.19+10-LTS
+user.name = 18859
+path.separator = ;
+os.version = 10.0
+java.runtime.name = OpenJDK Runtime Environment
+file.encoding = GBK
+java.vm.name = OpenJDK 64-Bit Server VM
+java.vendor.version = Zulu17.66+19-CA
+java.vendor.url.bug = http://www.azul.com/support/
+java.io.tmpdir = C:\Users\18859\AppData\Local\Temp\
+java.version = 17.0.19
+user.dir = D:\Project\GitHub\zkm26_deobf\work
+os.arch = amd64
+java.vm.specification.name = Java Virtual Machine Specification
+sun.os.patch.level = 
+native.encoding = GBK
+java.library.path = C:\Program Files\Zulu\zulu-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Zulu\zulu-25\bin\;C:\Program Files\Zulu\zulu-21\bin\;C:\Program Files\Zulu\zulu-17\bin\;C:\Program Files\Zulu\zulu-8\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Software\nodejs\;D:\Software\Microsoft VS Code\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Go\bin;C:\Program Files\dotnet\;D:\Software\Git\cmd;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Software\GitHub CLI\;C:\Users\18859\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\18859\AppData\Local\Programs\Python\Python312\;C:\Users\18859\AppData\Local\Programs\Python\Launcher\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Users\18859\AppData\Roaming\npm;C:\Users\18859\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\go\bin;%USERPROFILE%\.dotnet\tools;C:\Users\18859\AppData\Local\Microsoft\WinGet\Packages\Microsoft.Sysinternals.Handle_Microsoft.Winget.Source_8wekyb3d8bbwe;;C:\Program Files\Rizin\bin;D:\Software\rust\cargo\bin;.
+java.vm.info = mixed mode, sharing
+java.vendor = Azul Systems, Inc.
+java.vm.version = 17.0.19+10-LTS
+java.specification.maintenance.version = 1
+sun.io.unicode.encoding = UnicodeLittle
+java.class.version = 61.0
+
+Maximum memory is 2072576K.
+
+Parallel processing active. 4 processors available.
+

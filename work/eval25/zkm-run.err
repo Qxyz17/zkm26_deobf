@@ -1,0 +1,9 @@
+[ZKM-HOOK] agent attached
+Exception in thread "main" java.lang.ExceptionInInitializerError
+Caused by: javax.crypto.BadPaddingException: Given final block not properly padded. Such issues can arise if a bad key is used during decryption.
+	at java.base/com.sun.crypto.provider.CipherCore.unpad(CipherCore.java:862)
+	at java.base/com.sun.crypto.provider.CipherCore.fillOutputBuffer(CipherCore.java:942)
+	at java.base/com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:735)
+	at java.base/com.sun.crypto.provider.DESCipher.engineDoFinal(DESCipher.java:315)
+	at java.base/javax.crypto.Cipher.doFinal(Cipher.java:2220)
+	at com.zelix.xd.<clinit>(xd.java)
