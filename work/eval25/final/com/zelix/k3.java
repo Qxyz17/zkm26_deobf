@@ -1,0 +1,93 @@
+package com.zelix;
+
+import java.lang.invoke.MethodHandles;
+import javax.crypto.Cipher;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.DESKeySpec;
+import javax.crypto.spec.IvParameterSpec;
+
+public class k3 extends kd {
+   private static final long a = ess.a(3702854878641964948L, -5066342214441759605L, MethodHandles.lookup().lookupClass()).a(266788634026401L);
+   private static final String c;
+
+   public void U(Object[] var1) {
+      _ur var2 = (_ur)var1[0];
+      long var3 = (Long)var1[1];
+   }
+
+   public za s(Object[] var1) {
+      return (za)this.e(0);
+   }
+
+   public void t(Object[] var1) {
+      long var2 = (Long)var1[0];
+      _za var4 = (_za)var1[1];
+      _ur var5 = (_ur)var1[2];
+      long var6 = var2 ^ 0L;
+      x44.a<"i">(this.e(0), new Object[]{var6, this, var5}, 8818198965911889370L, var2);
+   }
+
+   public void Y(Object[] var1) {
+      _ur var3 = (_ur)var1[0];
+      int var4 = (Integer)var1[1];
+      int var2 = (Integer)var1[2];
+      long var5 = (Long)var1[3];
+      int var7 = (Integer)var1[4];
+   }
+
+   public k3(long var1, int var3) {
+      var1 = a ^ var1;
+      long var4 = var1 ^ 96746775922702L;
+      super(var3, var4);
+   }
+
+   public String Z(Object[] var1) {
+      long var2 = (Long)var1[0];
+      return c;
+   }
+
+   static {
+      long var0 = a ^ 74292449841951L;
+      Cipher var2;
+      Cipher var10000 = var2 = Cipher.getInstance("DES/CBC/PKCS5Padding");
+      SecretKeyFactory var10002 = SecretKeyFactory.getInstance("DES");
+      byte[] var10003 = new byte[]{(byte)((int)(var0 >>> 56)), 0, 0, 0, 0, 0, 0, 0};
+
+      for (int var3 = 1; var3 < 8; var3++) {
+         var10003[var3] = (byte)((int)(var0 << var3 * 8 >>> 56));
+      }
+
+      var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+      byte[] var4 = var2.doFinal("ÀMèªÁ\u0017\u000f¼Rµ0ã\u009e7\fUÈÞ¬¥ç ô§\nØIxúÖ\u00166".getBytes("ISO-8859-1"));
+      String var5 = c(var4).intern();
+      byte var10001 = -1;
+      c = var5;
+   }
+
+   private static String c(byte[] var0) {
+      int var1 = 0;
+      int var2;
+      char[] var3 = new char[var2 = var0.length];
+
+      for (int var4 = 0; var4 < var2; var4++) {
+         int var5;
+         if ((var5 = 255 & var0[var4]) < 192) {
+            var3[var1++] = (char)var5;
+         } else if (var5 < 224) {
+            char var6 = (char)((char)(var5 & 31) << 6);
+            byte var8 = var0[++var4];
+            var6 = (char)(var6 | (char)(var8 & 63));
+            var3[var1++] = var6;
+         } else if (var4 < var2 - 2) {
+            char var12 = (char)((char)(var5 & 15) << '\f');
+            byte var9 = var0[++var4];
+            var12 = (char)(var12 | (char)(var9 & 63) << 6);
+            var9 = var0[++var4];
+            var12 = (char)(var12 | (char)(var9 & 63));
+            var3[var1++] = var12;
+         }
+      }
+
+      return new String(var3, 0, var1);
+   }
+}

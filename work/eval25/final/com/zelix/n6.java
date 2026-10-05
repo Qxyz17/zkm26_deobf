@@ -1,0 +1,16 @@
+package com.zelix;
+
+import java.lang.invoke.MethodHandles;
+
+public class n6 extends j0 {
+   private static final long b = ess.a(-7794117222669121649L, 3173289458651439675L, MethodHandles.lookup().lookupClass()).a(127393987637106L);
+
+   public n6(int var1, long var2) {
+      var2 = b ^ var2;
+      long var10001 = var2 ^ 61314513017053L;
+      int var4 = (int)((var2 ^ 61314513017053L) >>> 32);
+      int var5 = (int)((var2 ^ 61314513017053L) << 32 >>> 48);
+      int var6 = (int)(var10001 << 48 >>> 48);
+      super(var4, (short)var5, (short)var6, var1);
+   }
+}
