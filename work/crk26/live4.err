@@ -1,0 +1,9 @@
+[Patch] com/zelix/ZKM.class
+[Patch] com/zelix/m44.class
+[Patch] com/zelix/OverrideGuardRuntime.class
+[Patch] com/zelix/rv.class
+[Patch] com/zelix/_f.class
+[Patch] com/zelix/bn.class
+[ZKM-HOOK] installing
+[ZKM-HOOK] retransforming loaded m44
+[ZKM-HOOK] intercepting m44 (2524871 bytes)

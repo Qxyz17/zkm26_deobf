@@ -1,0 +1,7 @@
+[Patch] com/zelix/ZKM.class
+[Patch] com/zelix/m44.class
+[Patch] com/zelix/OverrideGuardRuntime.class
+[Patch] com/zelix/rv.class
+[Patch] com/zelix/_f.class
+[Patch] com/zelix/bn.class
+FATAL ERROR: "D:\Project\GitHub\zkm26_deobf\work\crk26\work\crk26\crk26-classes.jar" does not exist. Specified path was 'work/crk26/crk26-classes.jar' Default directory was 'D:\Project\GitHub\zkm26_deobf\work\crk26'. (2)
